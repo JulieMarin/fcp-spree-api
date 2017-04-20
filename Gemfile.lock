@@ -248,6 +248,11 @@ GEM
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     rake (12.0.0)
     ransack (1.4.1)
       actionpack (>= 3.0)
@@ -314,6 +319,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails!
+  rails_12factor
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spree!
